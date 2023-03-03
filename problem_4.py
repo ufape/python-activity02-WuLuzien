@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# YOUR FULL NAME
+# Wu Luzien
 # UAG00098
 # Problem Set 2 - Problem 3
 # Description:
@@ -28,8 +28,13 @@ Você digitou 3 valores pares.
 
 
 def main():
-    pass  # your code here
+    numero_par = 0
 
+    for num in range(6):
+       numero = int(input('Digite um número:'))
+       if (numero % 2 ==0):
+          numero_par += 1
+          print(f'Detectamos {numero_par} Valores Pares')
 
 if __name__ == '__main__':
     main()

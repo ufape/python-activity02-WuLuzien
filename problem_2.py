@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# YOUR FULL NAME
+# WU LUZIEN
 # UAG00098
 # Problem Set 2 - Problem 2
 # Description:
@@ -26,7 +26,20 @@ R2 = -2.712
 
 
 def main():
-    pass  # your code here
+    a = int(input('Digite o valor A: ')) 
+    b = int(input('Digite o valor B: ')) 
+    c = int(input('Digite o valor C: ')) 
+    delta = (b**2)  - 4 * a * c 
+    raizdelta = delta**(1/2) 
+
+    if (a == 0) or(delta < 0):
+        print('Impossível calcular.')
+    else: 
+        R1 = (-b + raizdelta)/ (2 * a) 
+        R2 = (-b - raizdelta)/ (2 * a) 
+        print('R1 =', R1) 
+        print('R2 =', R2)
+
 
 
 if __name__ == '__main__':

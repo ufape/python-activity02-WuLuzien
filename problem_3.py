@@ -1,6 +1,6 @@
 # -*- coding: utf-8 -*-
 
-# YOUR FULL NAME
+# WU LUZIEN
 # UAG00098
 # Problem Set 2 - Problem 3
 # Description:
@@ -36,8 +36,17 @@ Fora de intervalo.
 
 
 def main():
-    pass  # your code here
-
+    A = float(input('Digite o valor: '))
+    if (A >= 0) and (A <= 25):
+        print(f'Intervalo [0,25]')
+    if (A >= 25) and (A <= 50):
+        print(f'Intervalo (25, 50]')
+    if (A >= 50) and (A <= 75):
+        print(f'Intervalo (50, 75]')
+    if (A >= 75) and (A <= 100):
+        print(f'Intervalo (75, 100]'
+    else :
+        print('Fora de intervalo.')
 
 if __name__ == '__main__':
     main()
