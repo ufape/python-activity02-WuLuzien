@@ -28,13 +28,14 @@ Você digitou 3 valores pares.
 
 
 def main():
-    numero_par = 0
+    numeros_pares = 0
 
-    for num in range(6):
-       numero = int(input('Digite um número:'))
-       if (numero % 2 ==0):
-          numero_par += 1
-          print(f'Detectamos {numero_par} Valores Pares')
+    for i in range(6):
+        valor = int(input(f"Digite o valor {i+1}/6: "))
+    
+        if valor % 2 == 0:
+            numeros_pares += 1
 
+    print(f"Você digitou {numeros_pares} valores pares.")
 if __name__ == '__main__':
     main()

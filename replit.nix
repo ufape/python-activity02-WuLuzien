@@ -3,6 +3,14 @@
     pkgs.python39Packages.pytest_6_1
     pkgs.python39Packages.pytest_6_1
     pkgs.python39Packages.pytest_6_1
+    pkgs.python39Packages.pytest_6_1
+    pkgs.python39Packages.pytest_6_1
+    pkgs.python39Packages.pytest_6_1
+    pkgs.python39Packages.pytest_6_1
+    pkgs.python39Packages.pytest_6_1
+    pkgs.python39Packages.pytest_6_1
+    pkgs.python39Packages.pytest_6_1
+    pkgs.python39Packages.pytest_6_1
     pkgs.python38Packages.pytest_6_1
     pkgs.python38Packages.pytest
     pkgs.python39Packages.pytest_6_1

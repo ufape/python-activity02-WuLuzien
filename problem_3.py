@@ -36,17 +36,18 @@ Fora de intervalo.
 
 
 def main():
-    A = float(input('Digite o valor: '))
-    if (A >= 0) and (A <= 25):
-        print(f'Intervalo [0,25]')
-    if (A >= 25) and (A <= 50):
-        print(f'Intervalo (25, 50]')
-    if (A >= 50) and (A <= 75):
-        print(f'Intervalo (50, 75]')
-    if (A >= 75) and (A <= 100):
-        print(f'Intervalo (75, 100]'
-    else :
-        print('Fora de intervalo.')
 
+    valor = float(input("Digite o valor: "))
+
+    if valor >= 0 and valor <= 25:
+        print("Intervalo [0, 25]")
+    elif valor > 25 and valor <= 50:
+        print("Intervalo (25, 50]")
+    elif valor > 50 and valor <= 75:
+        print("Intervalo (50, 75]")
+    elif valor > 75 and valor <= 100:
+        print("Intervalo (75, 100]")
+    else:
+        print("Fora de intervalo.")
 if __name__ == '__main__':
     main()
